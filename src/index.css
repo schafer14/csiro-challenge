@@ -1,0 +1,23 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.hover {
+  transition: 0.1s;
+}
+
+.hover-up:hover {
+  transform: translateY(-10px);
+}
+
+.hover-right:hover {
+  transform: translateX(20px);
+}
+
+.pointer {
+  cursor: pointer;
+}
